@@ -1,0 +1,112 @@
+body{
+   overflow-x: hidden;
+}
+.navbar .nav-item{
+   font-size: 14px;
+   padding-left: 1rem !important;
+   padding-right:1rem !important;
+}
+.navbar .nav-item.active{
+   border-left: #444 3px solid;
+}
+.carousel-item{
+   height: 450px;
+}
+.text-overlay1{
+   background: url(img/image1.jpg);
+   background-size:cover;
+}
+.text-overlay2{
+   background: url(img/image2.jpg);
+   background-size:cover;
+}
+
+.text-overlay3{
+   background: url(img/image3.jpg);
+   background-size:cover;
+}
+
+#homeIcon i{
+   font-size: 3rem;
+}
+#homeIcon .col-md-3{
+   text-align: center;
+}
+
+#parallax1 {
+   color:white;
+   text-align: center;
+   background-image:url(img/lights.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+ 
+}
+.dark-overlay{
+   background-color: black;
+   opacity:0.7;
+}
+
+#video-play {
+   color:white;
+   text-align: center;
+   background-image:url(img/media.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+#video-play a{
+   color:white;
+}
+
+
+#header{
+   color:white;
+   text-align: center;
+   background-image:url(img/image1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;  
+}
+
+
+#about .image{
+   position:relative;
+   top:-35px;
+}
+
+#about i{
+   font-size: 50px;
+}
+
+#about .card-text{
+   text-align: center;
+}
+
+#plans ul{
+   list-style-type: none;
+   padding:0px;
+}
+#plans li{
+   border:#eae7e7 solid 1px;
+   display: block;
+   padding:5px;
+}
+
+#plans li p{
+   margin-bottom: 0;
+}
+#services-footer{
+   background-color: black;
+  
+}
+
+#services-accordian .card{
+   background-color: #444;
+   color:white;
+}
+#services-accordian a{
+   color: #eae7e7;
+}
